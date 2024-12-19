@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://static.vecteezy.com/ti/vecteur-libre/p1/3483273-fond-de-perspective-boites-blanches-vectoriel.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 2px 2px  7px 8px gray;
+    width: 450px;
+    text-align: center;
+}
+
+#quiz-title {
+    font-size: 45px;
+    color: #151e3a;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color:  #222f55;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color:rgb(161, 158, 158);
+    color:  #1a2a58;
+}
+
+.hidden {
+    display: none;
+}
+
+#timer {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+    color:  #051031;
+}
+
+h2 {
+    font-size: 20px;
+}
